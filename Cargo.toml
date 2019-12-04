@@ -1,10 +1,13 @@
 [package]
 name = "guard_let"
 description = "guard let for rust"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["강동윤 <kdy1997.dev@gmail.com>"]
 edition = "2018"
 license = "MIT"
+homepage = "https://github.com/kdy1/guard_let"
+repository = "https://github.com/kdy1/guard_let"
+
 
 [lib]
 proc-macro = true
