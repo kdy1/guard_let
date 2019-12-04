@@ -3,7 +3,10 @@
 [![doc.rs](https://docs.rs/guard_let/badge.svg)](https://docs.rs/guard_let)
 [![crates.io](https://img.shields.io/crates/v/guard_let.svg)](https://crates.io/crates/guard_let)
 
-Guard let for rust
+Guard let for rust. In rust, there exists a syntax sugar called if let.
+But when it's nested, it make reading code really hard. `guard_let!` does inverse of lf let.
+Execute code *below* guard only if guard matches,
+and executes provided block if guard does not matches.
 
 
 # Usage
