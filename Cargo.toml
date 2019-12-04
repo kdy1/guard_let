@@ -1,11 +1,13 @@
-[workspace]
-
 [package]
 name = "guard_let"
 version = "0.1.0"
 authors = ["강동윤 <kdy1997.dev@gmail.com>"]
 edition = "2018"
 
+[lib]
+proc-macro = true
 
 [dependencies]
-guard_let_macros = { path = "./macros", version = "0.1" }
+pmutil = "0.5.2"
+proc-macro2 = "1"
+syn = { version = "1", features = ["fold", "full", "derive"] }
