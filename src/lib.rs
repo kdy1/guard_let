@@ -43,9 +43,9 @@ use syn::{
 /// fn pattern() {
 ///    let v = Enum::A(String::from(""));
 ///
-///    guard_let!(v as Enum::C(Struct{foo}), {
+///    guard_let!(v as Enum::C(Struct { foo }), {
 ///        // Type of v is Enum at here.
-///        println!("v is not A: {:?}", v);
+///        println!("v is not C: {:?}", v);
 ///        return;
 ///    });
 ///
